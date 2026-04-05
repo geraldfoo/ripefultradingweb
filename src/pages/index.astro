@@ -3,9 +3,6 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 ---
-import { Image } from 'astro:assets';
-import myImage from '../assets/rt1.jpg';
----
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
@@ -24,7 +21,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			<h1>Our Story</h1>
 			<img src="../images/rt1.jpg" alt="Malaysia cendol" /> 
 			<img src="../images/rt2.jpg" alt="Malaysia cendol" /> 
-<Image src={myImage} alt="" class="my-class" />
+
 			<p>
 				Ripeful Trading was born from a simple belief:</br>
 				some of the world’s most extraordinary flavors are still waiting to be understood.
